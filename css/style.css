@@ -1,0 +1,460 @@
+*{
+	padding: 0;
+	margin:0;
+
+}
+@font-face{
+	font-family: 'Lato-Bold';
+	src:url('../fonts/Lato-Bold.ttf');
+}
+@font-face{
+	font-family: 'Raleway-Bold';
+	src:url('../fonts/Raleway-Bold.ttf');
+}
+@font-face{
+	font-family: 'Lato-Regular';
+	src:url('../fonts/Lato-Regular.ttf');
+}
+@font-face{
+	font-family: 'Lato-Italic'
+	src:url('../fonts/Lato-Italic.ttf');
+}
+@font-face{
+	font-family: 'Raleway-Medium';
+	src:url('../fonts/Raleway-Medium.ttf');
+}
+/*csstop*/
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    background: #383838;
+}
+
+li.header-top-list {
+    display: inline-block;
+    padding: 0 5px;
+    color: white;
+}
+#id1,#id2,#id3,#id4,#id5,#id6{
+	text-decoration: none;
+	color: white;
+	font-family: Lato-Bold;
+}
+
+.header-mid {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0 15px 0;
+}
+.search {
+    display: flex;
+    margin-left: 520px;
+}
+.cart {
+    display: flex;
+    border: 1px solid;
+    border-radius: 4px;
+}
+.cart-logo {
+    padding: 0 14px 0 15px;
+    background: green;
+    margin: 0px 0px;
+}
+.fa-shopping-cart:before {
+    content: "\f07a";
+    color: white;
+    font-size: 10px;
+}
+.price {
+    margin-left: -6px;
+    padding: 7px;
+    font-size: 12px;
+    font-family: Lato-Bold;
+}
+.header-bot-row1 {
+    display: flex;
+    background: #FBFBFB;
+}
+.header-bot-row1-menu {
+    background: green;
+    padding: 11px 30px;
+}
+.fa-bars:before {
+    content: "\f0c9";
+    color: white;
+    font-size: 18px;
+}
+span.menu-tite {
+    color: white;
+    font-size: 18px;
+}
+ul.menu-nav {
+    margin-left: 60px;
+    padding-top: 12px;
+}
+li.menu-nav-list {
+    display: inline-block;
+    padding: 4px 10px 0px;
+}
+#id7,#id8,#id9,#id10,#id11,#id12,#id13{
+	text-decoration: none;
+	color: #796e6e;
+	font-size: 15px;
+}
+.header-bot-row2 {
+    border-top: 1px solid;
+}
+img.image1 {
+    width: 100%;
+}
+/*endtop*/
+/*css main*/
+.main {
+    margin-top: 30px;
+}
+.main-center {
+    margin-top: 30px;
+    margin-bottom: -100px;
+}
+img.images-anh1 {
+    width: 100%;
+}
+.main-row-item {
+    display: flex;
+}
+.col1 {
+    border: 1px solid #dcd2c0;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-bottom: 15px;
+}
+.main-sidebar1 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+h6.aside-title {
+    text-align: center;
+    margin-top: 23px;
+    margin-bottom: 0px;
+    font-family: Raleway-Bold;
+}
+.aside-item {
+    display: flex;
+}
+.item-content {
+    margin-left: 15px;
+}
+.t-shirt,.t-shirt-title{
+	margin-bottom: 0;
+	font-family: Lato-Regular;
+}
+.t-shirt-price{
+	font-family: Lato-Bold;
+	margin-bottom: 0;
+}
+.star1{
+	color: orange;
+}
+.col2 {
+    margin: 30px -15px 30px -15px;
+}
+img.images-anh7 {
+    width: 100%;
+}
+h6.dev-name {
+    text-align: center;
+}
+p.aside-content {
+    font-family: Lato-Italic;
+    text-align: center;
+}
+img.images-dev {
+    margin: 0 85px 0 85px;
+}
+p.dev-position {
+    text-align: center;
+}
+.caret {
+    margin-left: 100px;
+}
+.logo-item {
+    display: flex;
+}
+img.images-lofo1 {
+    margin-left: -15px;
+}
+.col3 {
+    border: 1px solid #dcd2c0;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-bottom: 15px;
+    margin-top: 30px;
+}
+.logo-item2,.logo-item3{
+	display: flex;
+	margin-top: 30px;
+}
+.caret2 {
+    margin-left: 100px;
+    margin-top: 25px;
+}
+
+.row-item-center {
+    display: flex;
+    margin-top: 30px;
+}
+.item1 {
+    border: 1px solid #dcd2c0;
+    padding-left: 0px;
+    margin-right: -15px;
+    padding-bottom: 40px;
+}
+.title-item {
+    display: flex;
+    justify-content: space-between;
+}
+img.images-anh2 {
+    width: 100%;
+}
+.new {
+    color: #d2ccc2;
+    font-family: Raleway-Bold;
+    padding-top: 13px;
+    margin-bottom: 0;
+}
+.products {
+    font-family: Raleway-Bold;
+    margin-top: 13px;
+}
+.main-item1 {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.row-item-center {
+    display: flex;
+    margin-top: 40px;
+}
+div#items1 {
+    margin-left: -15px;
+}
+div#items2,#items3,#items4 {
+    margin-left: 10px;
+}
+p.title-anh2 {
+    text-align: center;
+    margin-bottom: 0;
+    color: #c1bbb0;
+    font-family: Lato-Regular;
+}
+p.content-anh2 {
+    text-align: center;
+    margin-bottom: 0;
+    font-family: Lato-Regular;
+}
+p.price-anh2 {
+    text-align: center;
+    margin-bottom: 0;
+    font-family: Lato-Bold;
+}
+.star {
+    text-align: center;
+    color: orange;
+}
+.back,.next{
+	font-size: 23px;
+    margin-top: 8px;
+}
+.content-main-item2 {
+    margin-top: 30px;
+}
+img.images-sale {
+    width: 100%;
+}
+.item2 {
+    margin: 40px 0 40px 0;
+    margin-right: -15px;
+}
+.item3 {
+    border: 1px solid #dcd2c0;
+    padding-left: 0px;
+    margin-right: -15px;
+    padding-bottom: 40px;
+}
+.main-item3 {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.main-item3-title {
+    text-align: center;
+    font-family: Raleway-Bold;
+    padding-top: 15px;
+}
+.content-main-item3 {
+    margin-top: 40px;
+}
+.row-item3 {
+    display: flex;
+}
+.col-md-4 {
+    margin-left: -15px;
+}
+.row-item3-1 {
+    display: flex;
+}
+p.t-shirt1 {
+    margin-bottom: 0;
+    font-family: Lato-Regular;
+    color: #c1bbb0;
+}
+p.t-shirt-title1 {
+    margin-bottom: 0;
+    font-size: 12px;
+    font-family: Lato-Regular;
+}
+p.t-shirt-price1 {
+    font-family: Lato-Bold;
+    margin-bottom: 0;
+}
+.star2 {
+    font-size: 15px;
+    color: orange;
+}
+.row-item3-2,.row-item3-3{
+	display: flex;
+	margin-top: 30px;
+}
+.item4 {
+    margin-top: 40px;
+    margin-right: -15px;
+    padding-top: 0px;
+}
+img.images-hinh22 {
+    width: 100%;
+}
+
+.search-item4 {
+    position: relative;
+    bottom: 200px;
+    left: 300px;
+}
+.content-item4 {
+    position: relative;
+    bottom: 200px;
+    text-align: center;
+}
+h5.title-item4 {
+    font-size: 25px;
+    font-family: Raleway-Bold;
+}
+p.content-title-item4 {
+    font-family: Lato-Regular;
+    font-size: 15px;
+}
+.search-item4 {
+    position: relative;
+    bottom: 200px;
+    left: 75px;
+}
+input.input {
+    margin-left: 20px;
+    width: 60%;
+    height: 40px;
+}
+.button {
+    padding: 6px 15px;
+    color: white;
+    background: black;
+}
+.button:hover{
+	background-color: #90b75c;
+}
+.main-img {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.row-img {
+    display: flex;
+}
+img.main-img1 {
+    width: 100%;
+}
+.main-news {
+    margin-top: 40px;
+}
+.row-main-new {
+    display: flex;
+}
+.main-new-title {
+    display: flex;
+    justify-content: space-between;
+}
+.main-new-logo {
+    margin-top: 10px;
+}
+h6.last-new {
+    font-size: 25px;
+    font-family: Raleway-Bold;
+}
+#new1,#new2{
+	margin-right: 30px;
+}
+#new3{
+	margin-right: 15px;
+}
+img.images-hinh25 {
+	width: 100%;
+}
+.new-content {
+    padding: 15px;
+    border: 1px solid #dcd2c0;
+}
+a#span-link1,#span-link2,#span-link3 {
+    text-decoration: none;
+    color: #9e9a91;
+    font-weight: bold;
+}
+.fa-comments:before {
+    content: "\f086";
+    margin-left: 180px;
+}
+p.new1-title {
+    font-family: Raleway-Bold;
+}
+p.content-new {
+    font-family: Lato-Itaic;
+}
+.footer {
+    margin-top: 40px;
+}
+img.images-video {
+    width: 100%;
+}
+.footer-bot {
+    background: #383838;
+}
+.footer-content {
+    display: flex;
+    color: white;
+    padding-top: 50px;
+}
+h6.about {
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+p.about-us {
+    font-family: Lato-regular;
+}
+.font-awesome,.row1 {
+    display: flex;
+}
+.icon {
+    padding: 0 10px;
+    font-size: 20px;
+}
+.hinh28{
+	width: 100%;
+}
+p.recent {
+    padding-left: 18px;
+    font-size: 14px;
+}
